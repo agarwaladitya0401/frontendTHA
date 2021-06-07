@@ -1,0 +1,27 @@
+body{
+    background-color: rgb(253, 253, 140);
+    height: 100%;
+}
+
+.bg{
+    background-image: url("http://www.omexports.com/gallery/letter.jpg");
+    background-repeat: no-repeat;
+    /* background-size: auto; */
+    height: 100%;
+    background-size: cover;
+    
+}
+
+table {
+
+    background-color: salmon;
+}
+
+.content{
+    background-color: aliceblue;
+    background-size: covers;
+    
+    font-weight: bold;
+    opacity: 1
+
+}
