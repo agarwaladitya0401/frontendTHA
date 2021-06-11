@@ -1,0 +1,10 @@
+html{
+    color: rgb(90, 151, 189);
+}
+.bod{
+    border-style: solid;
+    display: grid;
+    grid-template-columns: 50% 1fr;
+    grid-gap: 1rem;
+    background:linear-gradient(rgb(90, 151, 189),rgb(90, 151, 189)) center/2px 100% no-repeat;
+}
