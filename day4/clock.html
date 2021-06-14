@@ -1,0 +1,113 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style type="text/css">
+        body {
+            background: radial-gradient(rgba(255, 200, 0, 1), black);
+            text-align: center;
+        }
+
+        .clock {
+            width: 500px;
+            height: 500px;
+            background: radial-gradient(white, black);
+            display: inline-block;
+            border-radius: 50%;
+            border: 50px solid black;
+            padding: 20px;
+        }
+
+        .sec {
+            height: 250px;
+            width: 10px;
+            border-radius: 10px;
+            line-height: 45px;
+            color: white;
+            position: relative;
+            background: radial-gradient(black, red);
+            left: 245px;
+            z-index: 3;
+            transform-origin: bottom;
+            animation: sec_anim 15s linear infinite;
+        }
+
+        .min {
+            height: 250px;
+            width: 15px;
+            border-radius: 10px;
+            line-height: 45px;
+            color: white;
+            position: relative;
+            background: radial-gradient(black, blue);
+            left: 242.5px;
+            top: -250px;
+            z-index: 2;
+            transform-origin: bottom;
+            animation: sec_anim 20s linear infinite;
+
+        }
+
+        .hour {
+            height: 180px;
+            width: 20px;
+            border-radius: 10px;
+            line-height: 45px;
+            color: white;
+            position: relative;
+            background: radial-gradient(black, green);
+            left: 240px;
+            top: -430px;
+            transform-origin: bottom;
+            animation: sec_anim 10s linear infinite;
+        }
+
+        @keyframes sec_anim {
+            from {
+                transform: rotateZ(0deg);
+            }
+
+            to {
+                transform: rotateZ(360deg);
+            }
+
+        }
+
+        @keyframes min_anim {
+            from {
+                transform: rotateZ(0deg);
+            }
+
+            to {
+                transform: rotateZ(360deg);
+            }
+
+        }
+
+        @keyframes hour_anim {
+            from {
+                transform: rotateZ(0deg);
+            }
+
+            to {
+                transform: rotateZ(360deg);
+            }
+
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="clock">
+        <div class="sec">S</div>
+        <div class="min">M</div>
+        <div class="hour">H</div>
+    </div>
+</body>
+
+</html>
