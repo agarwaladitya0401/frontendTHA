@@ -1,0 +1,27 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.input input{
+    display: flex;
+    border: 0;
+    outline: 0;
+    background:transparent;
+    border-bottom: 1px solid black;
+    width: 438px;
+    margin-bottom: 40px;
+    font-size: 20px;
+    font-style: oblique;
+}
+
+.buttons button, .result {
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 19px;
+    border-radius: 50%;
+    margin-bottom: 40px;
+    margin-left: 20px;
+    border:none;
+}
