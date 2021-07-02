@@ -1,0 +1,15 @@
+.thought, .author{
+
+    height: auto;
+    /* width:; */
+    display: flex;
+    /* margin-top: 10px ; */
+    padding: auto;
+
+    background-color: rgb(154, 190, 221);
+
+    align-items: center;
+    justify-content: center;
+
+    font-weight: bold;
+}
