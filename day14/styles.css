@@ -1,0 +1,12 @@
+div{
+    background-color: rgb(166, 127, 202);
+}
+
+#div1, #div2, #div3{
+  
+    height: 100px;
+    /* width: 100px; */
+    background-color: aqua;
+    margin: 10px;
+    overflow: scroll;
+}
