@@ -1,7 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from './app';
-import Meme from './meme';
+
 
 // ReactDOM.render(<App />, document.getElementById("root"));
-ReactDOM.render(<Meme />, document.getElementById("root"));
+ReactDOM.render(<h1>Hello World</h1>, document.getElementById("root"));
