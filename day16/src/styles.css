@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.card{
+    height: 10px;
+    width: 10px;
+    /* color: violet; */
+    background-color: white;
+    border: 10px;
+    border-color: violet;
+    margin-top: 2px;
+    /* padding: 10px; */
+}
+
+.App{
+    /* padding: 10px; */
+    position: absolute;
+    top:0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+    margin: auto;
+    height: 100px;
+    width: 100px;
+    border: 10px solid;
+    border-color: black;
+    display: grid;
+    grid-template-columns: repeat(8,1fr);
+    /* display: inline-block; */
+}
+
+.col:nth-child(odd) .card:nth-child(odd){
+    background-color: black;
+}
+.col:nth-child(even) .card:nth-child(even){
+    background-color: black;
+}
+
+.meme{
+    height: 400px;
+    width: 400px;
+    /* justify-content: center;
+    align-items: center; */
+    position: absolute;
+    top:0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+    margin: auto;
+    background-color: aqua;
+    border: 5px solid violet;
+    display: inline-block;
+}
+
+.meme img{
+
+    /* height: 100%; */
+   width: 100%;
+}
