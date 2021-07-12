@@ -1,0 +1,8 @@
+
+.card{
+    background-color: lightgreen;
+    padding: 10px;
+    margin: 10px;
+    font-size: 1.2rem;
+    display: inline-block;
+}
